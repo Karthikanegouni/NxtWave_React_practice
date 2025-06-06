@@ -1,0 +1,45 @@
+.container {
+  background-color: #07080c;
+  color: #ffffff;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.container h1:nth-child(1) {
+  font-style: italic;
+}
+
+.container img {
+  width: 60%;
+}
+
+.text {
+  font-size: 2em;
+}
+
+.rules {
+  color: #94a3b8;
+}
+.btn-cnt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+.btn-cnt button {
+  padding: 0.5em 1em;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #0b69ff;
+}
+
+button:nth-child(2) {
+  background-color: transparent;
+  border: 0.5px solid #ffffff;
+}
