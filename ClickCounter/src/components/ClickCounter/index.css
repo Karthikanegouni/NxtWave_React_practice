@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, Roboto ;
+}
+
+.heading {
+  font-size: 3em;
+  color: #2d3a35;
+  width: 20ch;
+}
+
+span {
+  color: #c20a72;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border-style: none;
+  padding: 2ch 5ch;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
