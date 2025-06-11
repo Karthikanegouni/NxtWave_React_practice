@@ -1,0 +1,33 @@
+.app-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 3em;
+  text-align: center;
+  border-radius: 20px;
+  min-width: 400px;
+}
+
+.count {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.status {
+  font-size: 24px;
+  color: #334155;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
