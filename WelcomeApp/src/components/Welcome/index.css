@@ -1,0 +1,41 @@
+.welcome-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #121212;
+  color: white;
+  padding: 0 1rem;
+}
+
+.welcome-title {
+  color: #ffc107;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.welcome-subtitle {
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.subscribe-button {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.125rem;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #ddd;
+}

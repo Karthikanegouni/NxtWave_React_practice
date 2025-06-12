@@ -1,0 +1,49 @@
+.container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.heading {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #dd1264;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.name-card {
+  background-color: #fddddb;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2em 4em;
+  border-radius: 10px;
+  min-width: 120px;
+}

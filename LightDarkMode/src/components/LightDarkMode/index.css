@@ -1,0 +1,29 @@
+.card {
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+  border: 1px solid black;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
