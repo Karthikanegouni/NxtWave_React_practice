@@ -2,6 +2,9 @@
 
 A React-based search application that allows users to search through a list of travel destinations in real-time using a case-insensitive input field. Built using class components, state, and props.
 
+# Demo
+![DestinationSearchApp](https://github.com/user-attachments/assets/7cefe3a6-095a-4850-80fa-b224df40b760)
+
 ## Features
 
 - Displays a list of destinations on initial load  
