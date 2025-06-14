@@ -1,0 +1,35 @@
+.main-cnt {
+  min-height: 100vh;
+  overflow-y: auto;
+  background-color: #ffc2a0;
+  padding: 4em 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.todo-cnt {
+  background-color: #ffffff;
+  padding: 4em 3em;
+  width: 95%;
+  border-radius: 10px;
+}
+
+.todo-cnt > h1 {
+  text-align: center;
+  color: #ff8542;
+  font-weight: 1000;
+}
+
+.todo-cnt > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .todo-cnt {
+    padding: 2em 0em;
+  }
+}
