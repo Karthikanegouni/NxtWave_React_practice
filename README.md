@@ -1,6 +1,6 @@
 # NxtWave React Practice
 
-This repository contains React practice projects and assignments I’ve completed as part of the NxtWave MERN Stack Development Program.
+This repository contains React practice projects, coding assignments and Coding practices, I’ve completed as part of the NxtWave MERN Stack Development Program.
 
 Each folder in the root directory represents a standalone practice project or assignment. This collection reflects my learning journey and practical understanding of React concepts like component design, state management, props, event handling, conditional rendering, and more.
 
