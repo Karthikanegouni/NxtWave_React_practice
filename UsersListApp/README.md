@@ -2,6 +2,9 @@
 
 A React application that displays a list of users with their name, role, and profile picture. Users can search through the list in real-time and delete any user from the list. This project showcases state management and dynamic filtering using class components.
 
+# Demo
+![UserListApp](https://github.com/user-attachments/assets/d43d7681-184c-4adb-8b61-0403a542be3c)
+
 ## Features
 
 - Displays a list of user profiles with images, names, and roles  
