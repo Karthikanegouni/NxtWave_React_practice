@@ -1,0 +1,31 @@
+.todo-item-cnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.todo-item-cnt > p {
+  font-size: 1.5em;
+  color: #000000;
+  font-weight: 500;
+}
+
+.todo-item-cnt > button {
+  color: #ff0b37;
+  border: 1px solid #ff0b37;
+  background-color: transparent;
+  padding: 0.5em 2em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .todo-item-cnt > p {
+    font-size: 1em;
+    padding: 1em;
+  }
+  .todo-item-cnt > button {
+    font-size: 0.6em;
+  }
+}
