@@ -5,37 +5,38 @@ import "./index.css";
 const initialTodosList = [
   {
     id: 1,
-    title: "Book the ticket for today evening",
+    title: "Set up MongoDB schema for user authentication",
   },
   {
     id: 2,
-    title: "Rent the movie for tomorrow movie night",
+    title: "Build Express.js middleware for JWT verification",
   },
   {
     id: 3,
-    title: "Confirm the slot for the yoga session tomorrow morning",
+    title: "Create reusable form components in React",
   },
   {
     id: 4,
-    title: "Drop the parcel at Bloomingdale",
+    title: "Connect frontend to backend using Axios",
   },
   {
     id: 5,
-    title: "Order fruits on Big Basket",
+    title: "Deploy app on Render and test API routes",
   },
   {
     id: 6,
-    title: "Fix the production issue",
+    title: "Fix CORS issue between frontend and backend",
   },
   {
     id: 7,
-    title: "Confirm my slot for Saturday Night",
+    title: "Write custom hooks for input handling in React",
   },
   {
     id: 8,
-    title: "Get essentials for Sunday car wash",
+    title: "Document backend routes with Postman",
   },
-];
+]
+
 
 class SimpleTodos extends Component {
   state = {
