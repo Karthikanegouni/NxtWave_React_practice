@@ -1,0 +1,90 @@
+.search-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 1em;
+  font-family: system-ui, -apple-system, Roboto , Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.blur-bg-wrapper {
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 1em;
+  overflow: hidden;
+}
+
+.blur-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/009/469/218/non_2x/colorful-tourism-day-background-free-vector.jpg");
+  background-repeat: repeat;
+  filter: blur(10px);
+  z-index: 0;
+}
+
+.heading {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #ffffff;
+  font-weight: 1000;
+  margin-bottom: 1.5em;
+  text-align: center;
+  text-shadow: 0px 5px 8px #000000;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0.75em 1.2em;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px #0000003c;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-container:hover{
+  box-shadow: 0 10px 10px #0000003c;
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.search-container input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  background-color: transparent;
+  padding: 0.5em;
+  font-weight: 500;
+  color: #252627;
+}
+
+.search-container img {
+  width: 24px;
+  height: 24px;
+  margin-left: 0.5em;
+  opacity: 0.6;
+}
+
+.destination-cnt {
+  margin-top: 2.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
+  padding: 0 1em;
+  list-style-type: none;
+}
+
