@@ -1,0 +1,93 @@
+.history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 3em;
+}
+
+.history-info-cnt {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.icon-and-info {
+  display: flex;
+  align-items: center;
+  gap:2em;
+}
+
+.history-text-cnt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.title {
+  color: #475569;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.domain-url {
+  color: #64748b;
+  font-size: 1rem;
+}
+
+.time {
+  color: #475569;
+  font-size: 1.1rem;
+  font-weight: 600;
+  white-space: nowrap;
+  margin: 0;
+  margin-right: 2em;
+}
+
+button {
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+}
+
+.delete-icon {
+  height: 2em;
+    cursor: pointer;
+}
+
+.domain-logo {
+  height: 2em;
+}
+  .title,
+  .domain-url {
+    margin: 0.2em; 
+  }
+
+@media screen and (max-width: 576px) {
+  .history-item{
+    padding: 1.5em 2.5em;
+    gap:1em;
+  }
+
+  .history-info-cnt {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .history-text-cnt {
+    flex-direction: column;
+    align-items: flex-start;
+    gap:0;
+  }
+  .icon-and-info{
+    gap:0 1em;
+  }
+  .title,
+  .domain-url {
+    margin: 0.2em; 
+  }
+  .delete-icon {
+    height: 1.8em;
+  }
+}
