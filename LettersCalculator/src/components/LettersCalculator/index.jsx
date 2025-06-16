@@ -10,6 +10,7 @@ class LettersCalculator extends Component {
     this.setState({
       textInput: event.target.value,
     });
+    
   };
 
   render() {
