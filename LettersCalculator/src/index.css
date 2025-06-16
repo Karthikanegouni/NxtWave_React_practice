@@ -1,0 +1,80 @@
+.main-cnt {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+  width: 50%;
+}
+.left-section > h1 {
+  color: #ffffff;
+  font-weight: 1000;
+  min-width: 14ch;
+  font-size: 4rem;
+}
+label {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.input {
+  font-size: 2rem;
+  padding: 0.5em;
+  outline: none;
+  width: 90%;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.count-display {
+  background-color: #e4e7eb;
+  font-size: 2rem;
+  font-weight: 1000;
+  border-radius: 10px;
+  color: #219a6f;
+  padding: 1em 1.5em;
+}
+
+.right-section > img {
+  max-width: 100%;
+}
+@media screen and (max-width: 991px) {
+  .main-cnt {
+    flex-direction: column;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 80%;
+  }
+  .input,
+  label {
+    font-size: 1.2rem;
+  }
+  .left-section h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .count-display {
+    font-size: 1.3rem;
+  }
+  .right-section {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+}
