@@ -10,7 +10,6 @@ class LettersCalculator extends Component {
     this.setState({
       textInput: event.target.value,
     });
-    
   };
 
   render() {
@@ -27,12 +26,12 @@ class LettersCalculator extends Component {
             className="input"
             placeholder="Enter the phrase"
           />
-          <div className="count-display">No.of letters: {textInput.length}</div>
+          <p className="count-display">No.of letters: {textInput.length}</p>
         </div>
         <div className="right-section">
           <img
             src="https://assets.ccbp.in/frontend/react-js/stop-watch-with-calculator-img.png "
-            alt=""
+            alt="letters calculator"
           />
         </div>
       </div>
