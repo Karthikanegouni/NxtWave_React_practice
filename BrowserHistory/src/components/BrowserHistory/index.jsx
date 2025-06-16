@@ -1,7 +1,7 @@
-import './index.css'
-import Navbar from '../Navbar'
-import HistoryItem from '../HistoryItem'
 import {Component} from 'react'
+import Navbar from '../NavBar'
+import HistoryItem from '../HistoryItem'
+import './index.css'
 
 const initialHistoryList = [
   {
@@ -80,31 +80,24 @@ const initialHistoryList = [
 
 class BrowserHistory extends Component {
   state = {
-    initialHistoryList: initialHistoryList,
+    initialHistoryList,
     searchInput: '',
   }
 
   onSearchChange = value => {
-    this.setState({
-      searchInput: value,
-    })
+    this.setState({searchInput: value})
   }
 
   onDeleteItem = id => {
-    const {initialHistoryList} = this.state
-    this.setState({
-      initialHistoryList: initialHistoryList.filter(
-        eachItem => eachItem.id !== id,
-      ),
-    })
+    const {initialHistoryList: historyList} = this.state
+    const updatedList = historyList.filter(item => item.id !== id)
+    this.setState({initialHistoryList: updatedList})
   }
 
   render() {
-    const {initialHistoryList, searchInput} = this.state
-    const filteredHistoryList = initialHistoryList.filter(eachItem =>
-      eachItem.title
-        .toLocaleLowerCase()
-        .includes(searchInput.toLocaleLowerCase()),
+    const {initialHistoryList: historyList, searchInput} = this.state
+    const filteredHistoryList = historyList.filter(eachItem =>
+      eachItem.title.toLowerCase().includes(searchInput.toLowerCase()),
     )
 
     return (
@@ -129,4 +122,5 @@ class BrowserHistory extends Component {
     )
   }
 }
+
 export default BrowserHistory
