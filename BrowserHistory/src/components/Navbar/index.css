@@ -1,0 +1,48 @@
+nav {
+  background-color: #3367d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10ch;
+  padding: 2em;
+  gap: 2em;
+}
+
+.search-cnt {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #6697ff;
+  max-width: 50%;
+  flex: 1 1;
+}
+
+.app-logo {
+  align-self: flex-start;
+}
+
+.input {
+  font-size: 1em;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  background-color: #2850a7;
+  color: #ececec;
+}
+
+.search-icon {
+  padding: 10px;
+  font-size: 1em;
+  border-right: 1px solid #6697ff;
+  background-color: #2850a7;
+}
+
+@media screen and (max-width: 576px) {
+  .search-cnt {
+    max-width: 80%;
+  }
+
+  .app-logo {
+    width: 20%;
+  }
+}
