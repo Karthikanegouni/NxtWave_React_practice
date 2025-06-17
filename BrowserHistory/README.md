@@ -2,7 +2,7 @@
 
 A React application that displays and manages a list of browser history items. Users can search through the history and delete individual entries.
 
-LIVE DEMO: [BrowserHistory](https://apphistak.ccbp.tech)
+## LIVE DEMO: [BrowserHistory](https://apphistak.ccbp.tech)
 
 ## Features
 
