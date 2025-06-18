@@ -3,10 +3,14 @@ import SuggestionItem from "../SuggestionItem";
 import "./index.css";
 
 class GoogleSuggestions extends Component {
-  state = {
+  constructor(props){
+    super(props)
+    this.state = {
     searchInput: "",
-    initialSuggestionList: this.props.suggestionsList,
+    initialSuggestionList: props.suggestionsList,
   };
+  }
+  
 
   onSearchChange = (suggestion) => {
     this.setState({
