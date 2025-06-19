@@ -1,0 +1,64 @@
+.background {
+  background-image: linear-gradient(
+    to right,
+    var(--color-bg1),
+    var(--color-bg2)
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+    color: var(--color-title);
+}
+
+.info{
+    color:var(--color-info);
+    font-size:1.5em;
+}
+
+.card {
+  background-color: var(--color-white);
+  padding: 5em;
+  width: 50%;
+  border-radius: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+.emojis-cnt {
+    margin: 0;
+    padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  font-weight: 500;
+}
+.emoji{
+    width: 100%;
+    max-width: 5em;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:768px){
+    .card{
+        width: 90%;
+        padding: 1em 3em;
+    }
+    .emoji{
+        max-width: none;
+        width:50px;
+    }
+    .title{
+        font-size: 1.4em;
+    }
+    .info{
+        font-size: 1em;
+    }
+}
