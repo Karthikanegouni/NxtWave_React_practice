@@ -1,4 +1,4 @@
-import './index.css'
+import "./index.css";
 
 const Header = () => (
   <nav className="nav-header">
@@ -29,6 +29,6 @@ const Header = () => (
       </ul>
     </div>
   </nav>
-)
+);
 
-export default Header
+export default Header;
