@@ -1,8 +1,8 @@
-import './index.css'
+import "./index.css";
 
-const ProjectItem = props => {
-  const {projectDetails} = props
-  const {projectId, imageURL, description, title} = projectDetails
+const ProjectItem = (props) => {
+  const { projectDetails } = props;
+  const { projectId, imageURL, description, title } = projectDetails;
   return (
     <>
       <li className="project-item-container">
@@ -17,7 +17,7 @@ const ProjectItem = props => {
         </div>
       </li>
     </>
-  )
-}
+  );
+};
 
-export default ProjectItem
+export default ProjectItem;
