@@ -1,0 +1,40 @@
+.gallery-container {
+  min-height: 100vh;
+  width: 85%;
+  margin: auto;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-img-container {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.display-img {
+  width: 100%;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 600;
+  color: #1e293b;
+}
+.info {
+  font-size: 1em;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.thumbnail-container {
+  list-style-type: none;
+  width: 100%;
+  margin-top: 1ch;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  flex-wrap: wrap;
+}

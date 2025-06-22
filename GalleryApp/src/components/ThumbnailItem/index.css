@@ -1,0 +1,26 @@
+.thumbnail-item {
+  min-width: 75px;
+}
+
+.thumbnail-img {
+  width: 100%;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.thumbnail-img:hover {
+  scale: 1.1;
+  opacity: 0.8;
+}
+
+.active-thumbnail-item {
+  opacity: 1;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+}

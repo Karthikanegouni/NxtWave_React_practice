@@ -1,9 +1,6 @@
-import './App.css'
+import Gallery from "./components/Gallery";
+import "./App.css";
 
-const App=()=> {
-    return(
-        <h1>Gallery</h1>
-    )
-}
+const App = () => <Gallery />;
 
-export default App
+export default App;
