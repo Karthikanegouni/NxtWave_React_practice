@@ -1,0 +1,74 @@
+.bg-cnt {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-card {
+  background-color: #ffffff;
+  min-width: 400px;
+  max-width: 600px;
+  min-height: 70vh;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.title {
+  font-size: 3em;
+  color: #a35200;
+}
+
+.info {
+  margin: 0;
+  font-size: 1.5em;
+  color: #334155;
+  font-weight: 600;
+}
+
+.toss-result-img {
+  width: 50%;
+}
+
+.toss-btn {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 1em;
+  padding: 0.7em 1em;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.game-stats {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.stats {
+  color: #475569;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .toss-card {
+    width: 90%;
+  }
+  .title {
+    font-size: 2em;
+  }
+  .info {
+    font-size: 1.2em;
+  }
+  .game-stats {
+    width: 80%;
+  }
+}
