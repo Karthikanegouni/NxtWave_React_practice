@@ -1,0 +1,19 @@
+.app-card {
+  background-color: #ffffff;
+  padding: 2em;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.app-name {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.app-icon {
+  width: 100px;
+}
