@@ -2,6 +2,18 @@
 
 A category-based app listing project built using React. Users can filter apps by category (Social, Games, News, Food) and search for apps within the selected category. This project demonstrates handling dynamic lists, tabs, and real-time filtering.
 
+## Preview
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/69da0ef2-e235-453f-9732-df47a08933dc" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/4a2fafbf-545e-406a-8447-d40c34f2905e" width="300"/></td>
+  </tr>
+   <tr>
+    <td><img src="https://github.com/user-attachments/assets/e3aa37b9-5837-4513-b286-b15506300deb" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ba47a891-cf64-4d9b-8ceb-c261ea484bb0" width="300"/></td>
+  </tr>
+</table>
+
 ## Features
 
 - Displays apps by category using tabs  
