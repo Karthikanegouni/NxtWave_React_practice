@@ -2,6 +2,14 @@
 
 A React app that mimics Google-style search suggestions. As users type in the input field, a filtered list of suggestions appears, and users can autofill the input by clicking the arrow beside a suggestion.
 
+## Preview
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/4e4810ff-b698-4973-851e-b3cdffdc721a" alt="Screenshot 1" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/dacdaf95-7ca6-40a2-92b4-0b6d866321c1" alt="Screenshot 2" width="400"/></td>
+  </tr>
+</table>
+
 ## Features
 
 - Real-time search filtering  
