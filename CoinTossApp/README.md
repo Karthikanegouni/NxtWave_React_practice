@@ -2,6 +2,10 @@
 
 This is a simple Coin Toss Game built using React. It simulates the flipping of a coin and displays the result as either heads or tails. The app also keeps track of the total number of tosses and the count of heads and tails.
 
+## Preview
+![Screenshot from 2025-06-25 15-50-59](https://github.com/user-attachments/assets/dd1d6dac-63e0-4e0a-9a49-a9c670b68959)
+
+
 ## Features
 
 - Simulates a coin toss using random logic
