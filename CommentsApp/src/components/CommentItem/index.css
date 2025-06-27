@@ -25,3 +25,80 @@
 .light-blue {
   background-color: #0ea5e9;
 }
+
+.comment-top-cnt {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+
+.user-logo {
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.user-and-time {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+}
+
+.user-name {
+  font-weight: 600;
+  color: var(--app-text);
+}
+
+.time {
+  color: var(--app-subtle);
+  font-size: 0.85rem;
+}
+
+.comment {
+  color: var(--app-subtle);
+  line-height: 1.6;
+  margin-top: 0.3rem;
+}
+
+.like-delete-cnt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+}
+
+.like-btn,
+.del-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #64748b;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.liked-btn {
+  color: var(--app-accent);
+  font-weight: 600;
+}
+
+.like,
+.del {
+  width: 1.5rem;
+}
+
+.del:hover,
+.like:hover {
+  scale: 1.2;
+}
