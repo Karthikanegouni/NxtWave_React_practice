@@ -2,6 +2,13 @@
 
 A user-friendly comments app where users can post, like, and delete comments. This app keeps track of the total number of comments and how long ago each comment was posted. Built using React class components and demonstrates effective use of state, list rendering, UUID generation, and external libraries like `date-fns`.
 
+## Screenshots
+<div style="display: flex; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/b2b64a61-74bd-4ba5-a100-f21a861ce100" alt="Screenshot 1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/923c18da-6c18-433c-ac55-0c6b972e9eed" alt="Screenshot 2" width="45%" />
+</div>
+
+
 ## Features
 
 - Users can submit a name and comment
