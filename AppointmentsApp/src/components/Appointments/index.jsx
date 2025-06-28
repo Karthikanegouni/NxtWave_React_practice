@@ -1,81 +1,83 @@
-import {v4 as uuidv4} from 'uuid'
-import {format} from 'date-fns'
-import {Component} from 'react'
-import AppointmentItem from '../AppointmentItem'
-import './index.css'
+import { v4 as uuidv4 } from "uuid";
+import { format } from "date-fns";
+import { Component } from "react";
+import AppointmentItem from "../AppointmentItem";
+import "./index.css";
 
 class Appointments extends Component {
   state = {
     appointmentsList: [],
-    titleInput: '',
-    dateInput: '',
+    titleInput: "",
+    dateInput: "",
     displayStarredItems: false,
-  }
+  };
 
-  updateTitleInput = event => {
-    this.setState({titleInput: event.target.value})
-  }
+  updateTitleInput = (event) => {
+    this.setState({ titleInput: event.target.value });
+  };
 
-  updateDateInput = event => {
-    this.setState({dateInput: event.target.value})
-  }
+  updateDateInput = (event) => {
+    this.setState({ dateInput: event.target.value });
+  };
 
-  submitForm = event => {
-    event.preventDefault()
-    const {titleInput, dateInput} = this.state
-    if (titleInput.trim() === '' || dateInput.trim() === '') {
-      return
+  submitForm = (event) => {
+    event.preventDefault();
+    const { titleInput, dateInput } = this.state;
+    if (titleInput.trim() === "" || dateInput.trim() === "") {
+      return;
     }
-    const dateObj = new Date(dateInput)
-    const formatedDate = format(dateObj, 'dd MMMM yyyy, EEEE')
+    const dateObj = new Date(dateInput);
+    const formatedDate = format(dateObj, "dd MMMM yyyy, EEEE");
     const newAppointmentItem = {
       id: uuidv4(),
       title: titleInput,
       date: formatedDate,
       isStarred: false,
-    }
-    this.setState(prevState => ({
+    };
+    this.setState((prevState) => ({
       appointmentsList: [...prevState.appointmentsList, newAppointmentItem],
-      titleInput: '',
-      dateInput: '',
-    }))
-  }
+      titleInput: "",
+      dateInput: "",
+    }));
+  };
 
   displayStarred = () => {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       displayStarredItems: !prevState.displayStarredItems,
-    }))
-  }
+    }));
+  };
 
-  updateStarredStatus = id => {
-    this.setState(prevState => {
-      const {appointmentsList} = prevState
-      const updatedList = appointmentsList.map(appointmentItem => {
+  updateStarredStatus = (id) => {
+    this.setState((prevState) => {
+      const { appointmentsList } = prevState;
+      const updatedList = appointmentsList.map((appointmentItem) => {
         if (appointmentItem.id === id) {
-          return {...appointmentItem, isStarred: !appointmentItem.isStarred}
+          return { ...appointmentItem, isStarred: !appointmentItem.isStarred };
         }
-        return appointmentItem
-      })
+        return appointmentItem;
+      });
 
       return {
         appointmentsList: updatedList,
-      }
-    })
-  }
+      };
+    });
+  };
 
   render() {
-    const {appointmentsList, titleInput, dateInput, displayStarredItems} =
-      this.state
+    const { appointmentsList, titleInput, dateInput, displayStarredItems } =
+      this.state;
     const filteredList = displayStarredItems
-      ? appointmentsList.filter(item => item.isStarred === true)
-      : appointmentsList
-    const activeBtnClass = displayStarredItems && 'active-starred-btn'
+      ? appointmentsList.filter((item) => item.isStarred === true)
+      : appointmentsList;
+    const activeBtnClass = displayStarredItems && "active-starred-btn";
     return (
       <div className="wrapper">
         <div className="appointment-card">
           <div className="top-cnt">
             <div className="left-cnt">
-              <h1 className="title">Add Appointments</h1>
+              <h1 role="heading" name="Appointments" className="title">
+                Add Appointments
+              </h1>
               <form
                 action="submit"
                 className="form-cnt"
@@ -120,7 +122,7 @@ class Appointments extends Component {
           </div>
           <hr className="line" />
           <div className="bottom-appointments-title-cnt">
-            <h1 role="heading" name="Appointments" className="appointments-cnt-title">Appointments</h1>
+            <p className="appointments-cnt-title">Appointments</p>
             <button
               className={`starred-btn ${activeBtnClass}`}
               onClick={this.displayStarred}
@@ -129,7 +131,7 @@ class Appointments extends Component {
             </button>
           </div>
           <ul className="appointment-list-cnt">
-            {filteredList.map(appointment => (
+            {filteredList.map((appointment) => (
               <AppointmentItem
                 key={appointment.id}
                 appointmentDetails={appointment}
@@ -139,8 +141,8 @@ class Appointments extends Component {
           </ul>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Appointments
+export default Appointments;
