@@ -1,0 +1,188 @@
+.wrapper {
+  min-height: 100vh;
+  padding: 1.5em;
+}
+
+.welcome-card {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+  background-size: cover;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  padding: 2em;
+  text-align: center;
+  color: #475569;
+  margin-bottom: 2em;
+}
+
+.greet-text {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.welcome-text {
+  font-size: 1rem;
+}
+
+.blue-text {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+.money-details-cnt {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-bottom: 2em;
+}
+
+.add-transaction-form {
+  border: 1px solid #cbd5e1;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin-bottom: 2em;
+  flex-grow: 1;
+}
+
+.card-heading {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.input-label {
+  font-size: 0.8rem;
+  margin-bottom: 0.3em;
+}
+.input {
+  font-size: 0.8rem;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+}
+
+.add-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 0.8em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.history-card {
+  padding: 2em 0.5em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+
+.history-card > .card-heading {
+  text-align: center;
+}
+
+.history-items-cnt {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.history-first-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2em 1em;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  position: sticky;
+}
+
+.history-items-cnt {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 576px) and (orientation: landscape) {
+  .wrapper {
+    width: 90%;
+    margin: auto;
+  }
+
+  .welcome-card {
+    text-align: left;
+    padding: 3em;
+  }
+  .greet-text {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .welcome-text {
+    font-size: 1.2rem;
+  }
+  .money-details-cnt {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .input-label {
+    color: #7e858e;
+    font-size: 1.2rem;
+    margin-bottom: 0.3em;
+  }
+  .input {
+    font-size: 1.1rem;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+  }
+
+  .bottom-cnt {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+  }
+  .add-transaction-form {
+    margin: 0;
+    min-width: 50%;
+    max-width: 50%;
+  }
+
+  .money-details-card-amount {
+    font-size: 1.8em;
+    font-weight: 500;
+  }
+
+  .money-details-card-title {
+    font-size: 1.4rem;
+  }
+
+  .history-card > .card-heading {
+    text-align: left;
+  }
+
+  .history-card {
+    padding: 2em;
+  }
+
+  .item-text-cnt {
+    width: 20%;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .input-label {
+    font-size: 1rem;
+    margin-bottom: 0.3em;
+  }
+  .input {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+  }
+  .add-btn {
+    font-size: 1rem;
+  }
+}
