@@ -1,0 +1,31 @@
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2em 1em;
+  text-align: center;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  min-height: 10px;
+  max-width: 30px;
+  width: 100%;
+}
+
+.item-text-cnt,
+.del-icon-cnt {
+  width: 20%;
+  font-size: 0.6em;
+  text-align: left;
+}
+
+.del-icon-cnt {
+  text-align: right;
+}
