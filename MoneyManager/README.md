@@ -7,6 +7,12 @@ A full-featured React application to track income and expenses. Users can add tr
 Click Here: [Money Manager App](https://moneymanagerakg.ccbp.tech/)
 
 - ### Preview
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6694a40a-d003-42e3-be86-2a9778bc84a9" width="45%" />
+  <img src="https://github.com/user-attachments/assets/9462e934-cab1-4694-b014-99f97d41a79b" width="45%" />
+</p>
+
+
 
 ## Features
 
