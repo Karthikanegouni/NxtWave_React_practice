@@ -1,0 +1,68 @@
+.result-card {
+  background-color: var(--card-bg);
+  width: 70%;
+  margin: 5em auto;
+  color: var(--text-color);
+  padding: 2em;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--border-color);
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px var(--shadow-color);
+  user-select: none;
+  min-height: 50vh;
+}
+
+.result-image-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-img {
+  width: 60%;
+}
+
+.status-text {
+  font-size: 2rem;
+}
+
+.score-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-cnt > p {
+  margin: 0;
+}
+
+.best-score-title {
+  font-size: 1.5rem;
+}
+
+.best-score {
+  color: var(--score-color);
+  font-size: 2rem;
+}
+.play-again-btn {
+  margin-top: 1em;
+  background-color: var(--button-color);
+  color: var(--btn-text-color);
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  box-shadow: 2px 2px 10px var(--shadow-color);
+  font-weight: 600;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.play-again-btn:hover {
+  scale: 1.05;
+  box-shadow: 2px 2px 20px var(--shadow-color);
+}

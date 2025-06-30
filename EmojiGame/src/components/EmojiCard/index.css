@@ -1,0 +1,26 @@
+.emoji-card {
+  background-color: var(--card-bg);
+  padding: 1em;
+  border: 3px solid var(--border-color);
+  box-shadow: 5px 5px 10px var(--shadow-color);
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  max-width: 100px;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+}
+
+.emoji-img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.emoji-card:hover {
+  opacity: 0.9;
+  scale: 1.02;
+}
