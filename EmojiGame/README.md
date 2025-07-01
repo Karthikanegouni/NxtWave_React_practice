@@ -5,6 +5,12 @@ A fun and interactive memory-based React game. Click on unique emojis to increas
 ## Live Demo
 
 - [Click here Play](https://emojigameakg.ccbp.tech/)
+- Preview
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/638fab77-58a4-40ea-8a20-465a504d125a" alt="Screenshot 2" width="45%" style="margin-right: 5%;">
+  <img src="https://github.com/user-attachments/assets/1fe1e34b-1255-482e-97b6-c1f5f92b1996" alt="Screenshot 3" width="45%">
+</p>
+
 
 ## Features
 
