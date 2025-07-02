@@ -1,0 +1,197 @@
+.wrapper {
+  background-image: linear-gradient(
+    to bottom,
+    var(--bg-color1) 0%,
+    var(--bg-color2) 15%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2em;
+}
+
+.main-title {
+  color: var(--heading-color);
+  font-size: 2.3rem;
+}
+
+.timer-bg {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png");
+  background-position: center;
+  background-size: cover;
+  min-width: 300px;
+  min-height: 350px;
+  max-width: 500px;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer,
+.status {
+  margin: 0;
+  font-weight: 1000;
+  font-size: 1.3em;
+  color: var(--text-color);
+}
+
+.timer {
+  color: var(--timer-color);
+  font-size: 2.5rem;
+}
+
+.timer-cnt {
+  background-color: var(--timer-bg);
+  min-width: 160px;
+  min-height: 160px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.start-reset-cnt {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+button {
+  background-color: transparent;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  gap: 0.3em;
+  cursor: pointer;
+}
+
+img {
+  height: 1em;
+}
+
+.timer-limit-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-minus-cnt {
+  display: flex;
+  gap: 2em;
+}
+
+.minus-plus-btns {
+  font-size: 2rem;
+  font-weight: 1000;
+}
+
+.timer-limit {
+  background-image: linear-gradient(to right, #40f6ae, var(--timer-limit-bg));
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 1000;
+  color: var(--text-color);
+}
+
+.timer-limit-heading {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 600;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    background-image: linear-gradient(
+      to right,
+      var(--bg-color1),
+      var(--bg-color2)
+    );
+  }
+
+  .main-title {
+    font-size: 3rem;
+    margin-bottom: 3em;
+  }
+
+  .timer-bottom-cnt {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .timer-cnt {
+    min-width: 180px;
+    min-height: 180px;
+  }
+
+  .timer {
+    font-size: 2.8rem;
+  }
+  .timer-bg {
+    min-width: 300px;
+    min-height: 400px;
+    max-width: 500px;
+    width: 100%;
+    padding: 0;
+    font-size: 1.3rem;
+  }
+
+  .start-reset-cnt {
+    display: flex;
+    gap: 2rem;
+  }
+
+  img,
+  button {
+    font-size: 2.3rem;
+  }
+
+  .timer-limit {
+    font-size: 2.3rem;
+    font-weight: 1000;
+  }
+  .timer-limit-heading {
+    font-size: 1.5rem;
+  }
+  .controls-cnt {
+    gap: 5em;
+  }
+  .minus-plus-btns {
+    font-size: 3rem;
+    font-weight: 1000;
+  }
+
+  .controls-cnt {
+    min-width: 40%;
+  }
+
+  .timer-bg {
+    min-width: 30%;
+  }
+}
