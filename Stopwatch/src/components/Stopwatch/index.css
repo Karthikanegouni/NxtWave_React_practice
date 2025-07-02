@@ -1,0 +1,126 @@
+.bg-wrapper {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.title {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.stopwatch-card {
+  background-color: var(--card-bg);
+  display: flex;
+  width: 80%;
+  min-height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.title-cnt {
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.stopwatch-img {
+  height: 1.3em;
+}
+.card-title {
+  color: var(--text-color);
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.countdown {
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.btn-cnt {
+  display: flex;
+  gap: 1em;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  color: #ffffff;
+  padding: 0.3em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 16px #bfbfbf;
+}
+
+.start-btn {
+  background-color: var(--start-btn-bg);
+}
+
+.stop-btn {
+  background-color: var(--stop-btn-bg);
+}
+
+.reset-btn {
+  background-color: var(--reset-btn-bg);
+}
+
+@media screen and (min-width: 576px) {
+  .bg-wrapper {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png");
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .main-cnt {
+    min-width: 400px;
+    max-width: 700px;
+    width: 100%;
+  }
+
+  .stopwatch-card {
+    max-width: 500px;
+    min-height: 400px;
+    margin: auto;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+  .stopwatch-img {
+    height: 2.3rem;
+  }
+
+  .countdown {
+    font-size: 3.3rem;
+  }
+  .btn-cnt {
+    gap: 2em;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+}
