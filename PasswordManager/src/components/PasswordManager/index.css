@@ -1,0 +1,258 @@
+.wrapper {
+  background-image: linear-gradient(var(--wrapper-bg1), var(--wrapper-bg2));
+  min-height: 100vh;
+  padding: 2em 1em;
+}
+
+.app-logo {
+  width: 50%;
+  max-width: 200px;
+}
+
+.main-cnt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.top-container,
+.password-cnt {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-cnt-bg);
+  padding: 1em;
+  border-radius: 10px;
+  gap: 1em;
+  box-shadow: 0px 4px 16px 0px var(--shadow);
+}
+
+.password-cnt {
+  min-height: 700px;
+  max-height: 800px;
+}
+
+.lg-img {
+  display: none;
+}
+
+.sm-img {
+  width: 100%;
+}
+
+.form-card {
+  background-color: var(--form-bg);
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form-title {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.input-cnt {
+  display: flex;
+  background-color: var(--input-bg);
+  border-radius: 5px;
+}
+
+.input {
+  font-size: 1rem;
+  padding: 0.3em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+}
+
+.input-img-cnt {
+  border-right: 1px solid var(--border-color2);
+  height: 2.5rem;
+  padding: 0.5em;
+}
+
+.search-input-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--input-bg);
+  border-radius: 5px;
+}
+
+.search-img-cnt {
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  font-size: 0.9rem;
+  padding: 0.3em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+}
+
+.input-logo {
+  height: 100%;
+}
+
+.add-btn {
+  align-self: flex-end;
+  color: var(--text-color);
+  background-color: var(--add-btn-bg);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5em 2em;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  border-bottom: 1px solid var(--border-color2);
+  padding: 1em 0em;
+}
+
+.password-cnt-title {
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+.count {
+  font-weight: 1000;
+  font-size: 1rem;
+  border: 2px solid var(--border-color1);
+  padding: 1px 10px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.count>p{
+  display: inline;
+}
+
+.show-passwords-cnt {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5em;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.checkbox {
+  transform: scale(1.4);
+}
+
+.passwords-list-cnt {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 1em 0em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .main-cnt {
+    width: 90%;
+    margin: auto;
+    gap: 2em;
+  }
+  .sm-img {
+    display: none;
+  }
+  .lg-img {
+    display: block;
+    max-width: 450px;
+    width: 100%;
+  }
+  .top-container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3em 1.5em;
+    align-items: center;
+  }
+
+  .password-cnt {
+    padding: 2em 1.5em;
+  }
+
+  .form-card {
+    padding: 1.5em;
+    gap: 1.5em;
+    max-width: 600px;
+    width: 100%;
+  }
+
+  .form-title {
+    font-size: 1.5rem;
+  }
+  .input {
+    font-size: 1.5rem;
+  }
+
+  .search-input {
+    font-size: 1.2rem;
+  }
+
+  .header {
+    flex-direction: row;
+  }
+
+  .input-img-cnt {
+    height: 3.5em;
+    padding: 1em;
+  }
+  .search-img-cnt {
+    height: 2.5em;
+    padding: 0.5em;
+  }
+  .add-btn {
+    font-size: 1.5rem;
+  }
+
+  .password-cnt-title {
+    font-size: 1rem;
+  }
+
+  .count {
+    font-size: 1.2rem;
+    padding: 0.2em 1em;
+  }
+
+  .search-input-cnt {
+    width: 50%;
+    max-width: 400px;
+  }
+
+  .checkbox {
+    transform: scale(1.6);
+  }
+  .checkbox-label {
+    font-size: 1.5rem;
+  }
+
+  .password-item {
+    flex-grow: 0;
+    width: 350px;
+    padding: 1em;
+  }
+}

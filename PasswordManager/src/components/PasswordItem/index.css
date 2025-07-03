@@ -1,0 +1,78 @@
+.password-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em;
+  border: 1px solid var(--border-color1);
+  flex-grow: 1;
+  border-radius: 10px;
+}
+
+.left-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.website-logo {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.password-details-cnt > p {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-icon {
+  height: 1.5rem;
+}
+
+.stars {
+  height: 1rem;
+  margin-top: 0.25rem;
+  max-width: 12ch;
+}
+
+.website-avatar-color1 {
+  background-color: #f59e0b;
+}
+.website-avatar-color2 {
+  background-color: #10b981;
+}
+.website-avatar-color3 {
+  background-color: #f97316;
+}
+.website-avatar-color4 {
+  background-color: #14b8a6;
+}
+.website-avatar-color5 {
+  background-color: #b91c1c;
+}
+.website-avatar-color6 {
+  background-color: #0ea5e9;
+}
+.website-avatar-color7 {
+  background-color: #64748b;
+}
