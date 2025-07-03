@@ -1,0 +1,31 @@
+.faq-item {
+  border: 1px solid var(--border-color1);
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
+}
+
+.question-cnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.question {
+  color: var(--question-color);
+  font-size: 1.1rem;
+}
+
+.answer {
+  font-size: 0.9rem;
+  border-top: 1px solid var(--border-color2);
+  padding-top: 1em;
+  color: var(--ans-color);
+}
+
+.show-hide-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
