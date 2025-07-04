@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: var(--nav-bg);
+  color: var(--text-color);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.app-logo {
+  min-width: 150px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.score-title {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.timer-logo {
+  height: 2rem;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.active-text {
+  font-size: 2rem;
+  color: var(--active-color);
+  font-weight: 600;
+  margin: 0;
+}
