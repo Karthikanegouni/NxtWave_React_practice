@@ -9,19 +9,20 @@ export default function NavBar({ timer, score }) {
         className="app-logo"
       />
 
-      <div className="right">
-        <p className="score-title">
-          Score:<p className="active-text">{score}</p>
-        </p>
-        <div className="timer">
+      <ul className="right">
+        <li className="score-cnt">
+          <p className="score-title">Score:</p>
+          <p className="active-text">{score}</p>
+        </li>
+        <li className="timer">
           <img
             src="https://assets.ccbp.in/frontend/react-js/match-game-timer-img.png"
             alt="timer"
             className="timer-logo"
           />
-          <p className="active-text">{timer}</p>
-        </div>
-      </div>
+          <p className="active-text">{timer} sec</p>
+        </li>
+      </ul>
     </div>
   );
 }

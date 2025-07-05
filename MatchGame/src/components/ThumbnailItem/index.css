@@ -1,0 +1,22 @@
+.thumbnail-btn {
+  background-color: transparent;
+  min-width: 50px;
+  max-width: 80px;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.thumbnail-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .thumbnail-btn {
+    min-width: 90px;
+    max-width: 100px;
+    width: 100%;
+  }
+}

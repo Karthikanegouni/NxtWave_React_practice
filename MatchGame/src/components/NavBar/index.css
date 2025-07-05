@@ -2,20 +2,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 0.5em 1em;
   background-color: var(--nav-bg);
   color: var(--text-color);
+  gap: 1em;
 }
 
 .right {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   align-items: center;
-  gap: 2em;
+  gap: 1em;
+  font-weight: 600;
 }
 
 .app-logo {
-  min-width: 150px;
-  max-width: 250px;
+  min-width: 50px;
+  max-width: 200px;
   width: 100%;
 }
 
@@ -27,20 +32,42 @@
   gap: 0.5em;
 }
 
+.score-cnt {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
 .timer-logo {
-  height: 2rem;
+  height: 1rem;
 }
 
 .timer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.3em;
 }
 
 .active-text {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: var(--active-color);
   font-weight: 600;
   margin: 0;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
+@media screen and (min-width: 576px) {
+  .score-title {
+    font-size: 1.5rem;
+  }
+
+  .timer-logo {
+    height: 2rem;
+  }
+
+  .active-text {
+    font-size: 1.8rem;
+  }
 }
