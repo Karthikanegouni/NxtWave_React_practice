@@ -1,11 +1,10 @@
 import "./index.css";
 
-export default function ThumbnailItem({ thumbnailItem,onSelectedThumbnail}) {
-  const {id,thumbnailUrl } = thumbnailItem;
-
-  const selectThumbnail=()=>{
-    onSelectedThumbnail(id)
-  }
+export default function ThumbnailItem({ thumbnailItem, onSelectedThumbnail }) {
+  const { id, thumbnailUrl } = thumbnailItem;
+  const selectThumbnail = () => {
+    onSelectedThumbnail(id);
+  };
 
   return (
     <li className="thumbnail-cnt">
