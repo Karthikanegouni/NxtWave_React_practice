@@ -1,0 +1,8 @@
+.blog-list-cnt {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}

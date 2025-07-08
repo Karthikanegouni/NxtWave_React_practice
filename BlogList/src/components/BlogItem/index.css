@@ -1,0 +1,21 @@
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #9aa5b1;
+}
+
+.blog-title {
+  font-size: 1.2rem;
+  color: #12022f;
+}
+
+.blog-info {
+  font-size: 1rem;
+  color: #616e7c;
+}
+
+.date {
+  font-size: 1rem;
+  color: #616e7c;
+}
