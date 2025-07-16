@@ -1,8 +1,15 @@
-.blog-list {
+.blog-list-container {
   list-style-type: none;
   margin: 0;
   padding: 1em;
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+
+.loader-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
 }

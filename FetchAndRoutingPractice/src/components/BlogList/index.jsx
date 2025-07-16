@@ -1,52 +1,54 @@
 import { Component } from "react"
+import { HashLoader } from "react-spinners"
+
 import BlogItem from "../BlogItem"
 import "./index.css"
 
-export default class BlogList extends Component {
-  state = {
-    blogList: [],
-  }
+class BlogsList extends Component {
+  state = { isLoading: true, blogsData: [] }
 
   componentDidMount() {
-    this.getData()
+    this.getBlogsData()
   }
 
-  async getData() {
-    const url = "https://apis.ccbp.in/blogs"
+  getBlogsData = async () => {
     try {
-      const response = await fetch(url)
-      if (!response.ok) {
-        throw new Error(`Response status: ${response.status}`)
-      }
-      const json = await response.json()
-      let list = []
-      json.forEach((item) => {
-        const { id, title, author, image_url, avatar_url, topic } = item
-        list.push({
-          id: id,
-          title: title,
-          author: author,
-          imageUrl: image_url,
-          avatarUrl: avatar_url,
-          topic: topic,
-        })
-      })
-      this.setState({
-        blogList: list,
-      })
+      const response = await fetch("https://apis.ccbp.in/blogs")
+      const data = await response.json()
+      const formattedData = data.map((eachItem) => ({
+        id: eachItem.id,
+        title: eachItem.title,
+        imageUrl: eachItem.image_url,
+        avatarUrl: eachItem.avatar_url,
+        author: eachItem.author,
+        topic: eachItem.topic,
+      }))
+      this.setState({ blogsData: formattedData, isLoading: false })
     } catch (error) {
-      console.error(error.message)
+      console.error("Failed to fetch blogs", error)
+      this.setState({ isLoading: false })
     }
   }
 
   render() {
-    const { blogList } = this.state
+    const { blogsData, isLoading } = this.state
+
     return (
-      <ul className="blog-list">
-        {blogList.map((blogitem) => (
-          <BlogItem key={blogitem.id} blogitem={blogitem} />
-        ))}
-      </ul>
+      <>
+        {isLoading ? (
+          <div data-testid="loader" className="loader-cnt">
+            <HashLoader color="#00BFFF" size={60} />
+          </div>
+        ) : (
+          <ul className="blog-list-container">
+            {blogsData.map((item) => (
+              <BlogItem blogData={item} key={item.id} />
+            ))}
+          </ul>
+        )}
+      </>
     )
   }
 }
+
+export default BlogsList
