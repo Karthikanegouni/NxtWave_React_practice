@@ -1,0 +1,61 @@
+.cryptocurrency-list-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+  width: 100%;
+  max-width: 800px;
+}
+
+.crypto-items-cnt {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: 5px solid #00e7ff;
+  border-radius: 15px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 0.8em 1em;
+  font-size: 1rem;
+}
+
+.header-left {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  gap: 2em;
+}
+
+@media (max-width: 768px) {
+  .table-header {
+    gap: 2em;
+    font-size: 0.6rem;
+    padding: 0.5em 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .table-header {
+    gap: 1em;
+    font-size: 0.5rem;
+    padding: 0.5em 1em;
+  }
+
+  .header-right {
+    gap: 5em;
+  }
+}

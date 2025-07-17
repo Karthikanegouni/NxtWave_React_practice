@@ -1,0 +1,44 @@
+.cryptocurrency-tracker-cnt {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  color: #00e7ff;
+  font-size: 2.5rem;
+}
+
+.app-logo {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .cryptocurrency-tracker-cnt {
+    padding: 1.5em;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cryptocurrency-tracker-cnt {
+    padding: 1em;
+  }
+
+  .app-logo {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+}
