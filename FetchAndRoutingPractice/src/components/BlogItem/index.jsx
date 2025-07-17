@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
 import './index.css'
 
 export default function BlogItem({blogData}) {
-  const {title, author, imageUrl, avatarUrl, topic} = blogData
+  const {id, title, author, imageUrl, avatarUrl, topic} = blogData
   return (
+    <Link to={`blogs/${id}`} className="blog-link-item">
     <li className="blog-item">
       <img src={imageUrl} alt={title} className="blog-item-img" />
       <div className="blog-item-txt-cnt">
@@ -14,5 +16,6 @@ export default function BlogItem({blogData}) {
         </div>
       </div>
     </li>
+    </Link>
   )
 }
