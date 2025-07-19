@@ -1,0 +1,75 @@
+.rcb-bg {
+  background-image: linear-gradient(var(--team-1), var(--team-gradient));
+}
+
+.kkr-bg {
+  background-image: linear-gradient(var(--team-2), var(--team-gradient));
+}
+
+.kxp-bg {
+  background-image: linear-gradient(var(--team-3), var(--team-gradient));
+}
+
+.csk-bg {
+  background-image: linear-gradient(var(--team-4), var(--team-gradient));
+}
+
+.rr-bg {
+  background-image: linear-gradient(var(--team-5), var(--team-gradient));
+}
+
+.mi-bg {
+  background-image: linear-gradient(var(--team-6), var(--team-gradient));
+}
+
+.sh-bg {
+  background-image: linear-gradient(var(--team-7), var(--team-gradient));
+}
+
+.dc-bg {
+  background-image: linear-gradient(var(--team-8), var(--team-gradient));
+}
+
+.lost {
+  color: var(--lost-text);
+}
+
+.won {
+  color: var(--won-text);
+}
+
+.team-match-cnt {
+  min-height: 100vh;
+  padding: 2em 0.7em;
+  color: var(--primary-text);
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.latest-matches-title {
+  margin: 2em 0 1em 0;
+  font-size: 1rem;
+}
+
+.recent-matches-cnt {
+  list-style-type: none;
+  margin: 2em 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    width: 60%;
+    margin: auto;
+  }
+  .recent-matches-cnt {
+    gap: 2em;
+    justify-content: space-between;
+  }
+}

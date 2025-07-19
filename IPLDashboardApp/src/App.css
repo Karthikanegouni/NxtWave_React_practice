@@ -1,42 +1,36 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+:root {
+  /* Team colors */
+  --team-1: #a4261d;
+  --team-2: #5755a7;
+  --team-3: #d91c1f;
+  --team-4: #f7db00;
+  --team-5: #da237b;
+  --team-6: #13418b;
+  --team-7: #f26d22;
+  --team-8: #4f5db0;
+  --team-gradient: #1e293b;
+  --team-card-bg: #ffffff33;
+  --match-card-bg: #0f172a;
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+  /* Border Colors */
+  --border-1: #ffffff;
+  --border-2: #475569;
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  /* Text Colors */
+  --primary-text: #ffffff;
+  --won-text: #18ed66;
+  --lost-text: #e31a1a;
 }
