@@ -1,0 +1,23 @@
+.header-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 3em;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.header-cnt > img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.link {
+  text-decoration: none;
+  color: #64748b;
+}
