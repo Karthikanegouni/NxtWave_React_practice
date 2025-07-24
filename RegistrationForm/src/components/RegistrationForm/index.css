@@ -1,0 +1,123 @@
+.registration-form-cnt {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  padding: 1em;
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  border-radius: 5px;
+  padding: 2em;
+  box-shadow: 0px 4px 16px 0px var(--border);
+  min-width: 320px;
+  max-width: 400px;
+  width: 100%;
+}
+
+label {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: var(--label);
+}
+
+input {
+  margin-top: 5px;
+  border: 1px solid var(--border);
+  outline: none;
+  border-radius: 5px;
+  padding: 0.3em 1em;
+  font-size: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: var(--placeholder);
+}
+
+.submit-btn {
+  align-self: center;
+  margin-top: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 200px;
+}
+
+.error-input {
+  background-color: var(--error-bg);
+  border: 1px solid var(--error-text);
+}
+
+.error-msg {
+  color: var(--error-text);
+  font-size: 1em;
+  margin: 0;
+}
+
+.success-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  border-radius: 5px;
+  padding: 2em;
+  box-shadow: 0px 4px 16px 0px var(--border);
+  min-width: 320px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.success-img {
+  width: 50%;
+  align-self: center;
+}
+
+.success-msg {
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .registration-form,
+  .success-card {
+    padding: 1em;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .success-img {
+    width: 80%;
+  }
+
+  input {
+    font-size: 1rem;
+    padding: 0.3em 0.5em;
+  }
+
+  .submit-btn {
+    font-size: 0.9rem;
+    padding: 0.5em;
+    max-width: 100%;
+  }
+}
