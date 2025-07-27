@@ -1,5 +1,5 @@
-import Cookies from "js-cookie"
 import { withRouter } from "react-router-dom"
+import Cookies from "js-cookie"
 
 const LogoutButton = (props) => {
   const onLogout = () => {
