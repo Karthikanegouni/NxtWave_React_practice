@@ -1,0 +1,57 @@
+.active-event-details-cnt {
+  background: var(--active-event-bg);
+  min-height: 100vh;
+  flex-grow: 1;
+  max-width: 30%;
+  display: flex;
+  padding: 2em;
+  text-align: center;
+}
+
+.noactive-event-text {
+  font-size: 1.5rem;
+  color: var(--secondary-text);
+}
+
+.registered-icon {
+  max-width: 100px;
+  width: 100%;
+}
+
+.view-cnt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-text {
+  line-height: 1.5em;
+  color: var(--secondary-text);
+  font-weight: 500;
+}
+
+.not-registered-img,
+.registration-closed-img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-btn {
+  background-color: var(--button-bg);
+  color: var(--event-item-text);
+  outline: none;
+  border: none;
+  align-self: stretch;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.registration-closed-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

@@ -1,0 +1,33 @@
+.event-item-cnt {
+  max-width: 400px;
+  width: 45%;
+}
+
+.event-item-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.event-item-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2em;
+  margin: 0;
+}
+
+.event-location {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.event-item-btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.active-event {
+  border: 2px solid var(--active-border);
+}

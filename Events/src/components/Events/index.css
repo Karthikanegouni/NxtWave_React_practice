@@ -1,0 +1,25 @@
+.events-cnt {
+  min-height: 100vh;
+  display: flex;
+}
+
+.left-cnt {
+  background: var(--main-bg);
+  color: var(--event-item-text);
+  flex-grow: 1;
+  max-width: 70%;
+  padding: 2em;
+}
+
+.events-title {
+  font-size: 2rem;
+}
+
+.event-items-cnt {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2em;
+}
