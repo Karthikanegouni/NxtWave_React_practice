@@ -11,6 +11,7 @@
 .noactive-event-text {
   font-size: 1.5rem;
   color: var(--secondary-text);
+  font-weight: 500;
 }
 
 .registered-icon {
