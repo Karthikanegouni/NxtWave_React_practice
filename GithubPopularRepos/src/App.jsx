@@ -1,9 +1,5 @@
 import GithubPopularRepos from "./components/GithubPopularRepos"
 
-const App = () => {
-  return <div>
-    <GithubPopularRepos/>
-  </div>
-}
+const App = () => <GithubPopularRepos />
 
 export default App

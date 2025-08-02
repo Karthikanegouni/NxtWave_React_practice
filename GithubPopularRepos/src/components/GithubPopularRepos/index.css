@@ -1,0 +1,47 @@
+.github-popular-repo-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  font-family: "roboto";
+  background-color: var(--active-tab);
+  color: #1e293b;
+}
+
+.main-title {
+  font-family: "Lobster";
+  color: #0f172a;
+}
+
+.filters-cnt {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.repos-list {
+  list-style-type: none;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.error-cnt {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.error-cnt > img {
+  width: 100%;
+  max-width: 700px;
+}
