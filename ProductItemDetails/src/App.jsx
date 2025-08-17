@@ -1,11 +1,12 @@
-import {Switch, Route} from 'react-router-dom'
-import LoginForm from './components/LoginForm'
-import Home from './components/Home'
-import Products from './components/Products'
-import Cart from './components/Cart'
-import NotFound from './components/NotFound'
-import ProtectedRoute from './components/ProtectedRoute'
-import './App.css'
+import { Switch, Route } from "react-router-dom"
+import LoginForm from "./components/LoginForm"
+import Home from "./components/Home"
+import Products from "./components/Products"
+import Cart from "./components/Cart"
+import NotFound from "./components/NotFound"
+import ProtectedRoute from "./components/ProtectedRoute"
+import ProductItemDetails from "./components/ProductItemDetails"
+import "./App.css"
 
 const App = () => (
   <Switch>
@@ -13,6 +14,7 @@ const App = () => (
     <ProtectedRoute exact path="/" component={Home} />
     <ProtectedRoute exact path="/products" component={Products} />
     <ProtectedRoute exact path="/cart" component={Cart} />
+    <ProtectedRoute exact path="/products/:id" component={ProductItemDetails} />
     <Route component={NotFound} />
   </Switch>
 )

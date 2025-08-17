@@ -1,0 +1,11 @@
+.Product-Detailed-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-detailed-img {
+  max-width: 250px;
+  width: 90%;
+}
