@@ -14,7 +14,7 @@
   .home-container {
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 96px;
   }
 }
 
@@ -74,20 +74,19 @@
   font-size: 14px;
   line-height: 28px;
   color: #64748b;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .home-description {
     font-size: 18px;
-    margin-top: 0px;
+    margin-top: 0;
     text-align: left;
   }
 }
 
 .shop-now-button {
-  width: 60%;
   font-size: 14px;
   font-weight: 400;
   font-family: 'Roboto';

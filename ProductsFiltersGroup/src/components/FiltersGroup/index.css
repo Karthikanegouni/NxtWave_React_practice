@@ -1,0 +1,159 @@
+
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 25%;
+    max-width: 280px;
+    min-width: 240px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  color: #475569;
+}
+
+
+.category-heading {
+  margin-top: 24px;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .category-heading {
+    margin-top: 32px;
+  }
+}
+
+.categories-list {
+  padding-left: 0;
+}
+
+.category-item {
+  list-style: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .category-item {
+    margin-top: 24px;
+  }
+}
+
+.category-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .category-name {
+    font-size: 18px;
+  }
+}
+
+.category-name--active {
+  color: #0967d2;
+  font-weight: bold;
+}
+
+
+.rating-heading {
+  margin: 32px 0 18px;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ratings-list {
+  padding-left: 0;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.rating-img {
+  max-width: 152px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-img {
+    height: 24px;
+  }
+}
+
+.rating-label {
+  margin: 0 0 0 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-label {
+    font-size: 18px;
+    margin-left: 14px;
+  }
+}
+
+.rating-label--active {
+  color: #0967d2;
+  font-weight: bold;
+}
+
+.clear-filters-btn {
+  margin-top: 16px;
+  padding: 8px 12px;
+  border: 1px solid #0967d2;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .clear-filters-btn {
+    margin-top: 32px;
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}

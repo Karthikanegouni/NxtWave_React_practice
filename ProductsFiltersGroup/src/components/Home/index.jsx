@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 import Header from '../Header'
 
 import './index.css'
@@ -20,9 +22,11 @@ const Home = () => (
           that way you are. So, celebrate the seasons new and exciting fashion
           in your own way.
         </p>
-        <button type="button" className="shop-now-button">
-          Shop Now
-        </button>
+        <Link to="/products">
+          <button type="button" className="shop-now-button">
+            Shop Now
+          </button>
+        </Link>
       </div>
       <img
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png"

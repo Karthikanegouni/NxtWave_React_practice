@@ -95,6 +95,7 @@
   border-radius: 2px;
   margin-top: 5px;
   padding: 8px 16px 8px 16px;
+  outline: none;
 }
 
 .password-input-field {
@@ -106,6 +107,7 @@
   border-radius: 2px;
   margin-top: 5px;
   padding: 8px 16px 8px 16px;
+  outline: none;
 }
 
 .login-button {

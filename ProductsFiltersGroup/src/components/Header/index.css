@@ -79,6 +79,19 @@
     display: none;
   }
 }
+
+.nav-menu-item {
+  font-family: 'Roboto';
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #475569;
+}
+
 .nav-menu-mobile {
   width: 100%;
 }
@@ -101,18 +114,6 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 0px;
-}
-
-.nav-menu-item {
-  font-family: 'Roboto';
-  margin: 10px;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #475569;
 }
 
 .nav-menu-item-mobile {

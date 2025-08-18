@@ -29,14 +29,17 @@ A React application where users can explore a list of products with filters for 
 **Base URL:** `https://apis.ccbp.in/products`
 
 ### Sample API Usage:
+
 ```bash
 https://apis.ccbp.in/products?title_search=laptop&category=1&rating=4
 ```
 
 ### Request Method:
+
 `GET`
 
 ### Headers:
+
 JWT token stored in cookies is sent for authentication
 
 ## Cloning This Project
@@ -49,11 +52,13 @@ cd NxtWave_React_practice/ProductsFiltersGroup
 ## Installation & Running
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Start the development server:
+
    ```bash
    npm start
    ```
