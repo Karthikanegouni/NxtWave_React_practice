@@ -1,27 +1,27 @@
-import { Link, withRouter } from "react-router-dom"
+import {Link, withRouter} from 'react-router-dom'
 
-import Cookies from "js-cookie"
+import Cookies from 'js-cookie'
 
-import "./index.css"
+import './index.css'
 
-const Header = (props) => {
+const Header = props => {
   const onClickLogout = () => {
-    const { history } = props
-
-    Cookies.remove("jwt_token")
-    history.replace("/login")
+    const {history} = props
+    Cookies.remove('jwt_token')
+    history.replace('/login')
   }
 
   return (
     <nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-mobile-logo-container">
-          <img
-            className="website-logo"
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-            alt="website logo"
-          />
-
+          <Link to="/">
+            <img
+              className="website-logo"
+              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+              alt="website logo"
+            />
+          </Link>
           <button
             type="button"
             className="nav-mobile-btn"
@@ -36,11 +36,13 @@ const Header = (props) => {
         </div>
 
         <div className="nav-bar-large-container">
-          <img
-            className="website-logo"
-            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-            alt="website logo"
-          />
+          <Link to="/">
+            <img
+              className="website-logo"
+              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+              alt="website logo"
+            />
+          </Link>
           <ul className="nav-menu">
             <li className="nav-menu-item">
               <Link to="/" className="nav-link">

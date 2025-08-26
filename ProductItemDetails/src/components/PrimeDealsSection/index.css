@@ -6,13 +6,13 @@
   margin-top: 48px;
 }
 
-.primedeals-list {
+.products-list {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
 }
 
-.register-prime-image {
+.register-prime-img {
   margin-top: 30px;
 }
 

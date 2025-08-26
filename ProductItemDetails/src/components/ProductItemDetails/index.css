@@ -1,11 +1,142 @@
-.Product-Detailed-view {
+.Product-Detailed-view,
+.similar-products-cnt {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 2em;
+}
+
+.product-detailed-details > p {
+  margin: 0.5em;
+  color: #594d6d;
+}
+
+@media screen and (max-width: 576px) {
+  .product-detailed-img-cnt {
+    align-self: center;
+  }
 }
 
 .product-detailed-img {
-  max-width: 250px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.product-detailed-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rating_and_reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.strong-text {
+  font-weight: bold;
+}
+
+.horizontal-line {
+  border: 1px solid #cbced2;
+  width: 100%;
+}
+
+.plus-minus-quantity-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #594d6d;
+  gap: 1.5em;
+  font-weight: 600;
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+.wrapper-btn {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.add-to-cart-btn,
+.custom-btn {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  padding: 1em 2em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.similar-products-list {
+  margin: 0;
+  padding: 0;
+}
+
+.product-detailed-item-error-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
+.product-detailed-item-error-view > img {
+  max-width: 1080px;
   width: 90%;
+  margin: auto;
+}
+
+@media screen and (min-width: 577px) {
+  .Product-Detailed-view {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em;
+    gap: 2em;
+    width: 70%;
+    margin: auto;
+  }
+
+  .similar-products-cnt {
+    width: 70%;
+    margin: auto;
+    padding: 2em;
+  }
+
+  .similar-products-list {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+  }
+
+  .product-detailed-img-cnt {
+    align-self: stretch;
+    min-width: 30%;
+    max-width: 50%;
+  }
+
+  .product-detailed-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: fill;
+  }
+
+  .product-detailed-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.product-item-title {
+  color: #594d6d;
 }

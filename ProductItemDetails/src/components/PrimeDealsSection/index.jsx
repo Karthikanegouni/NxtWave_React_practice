@@ -1,8 +1,9 @@
 import { Component } from "react"
 import Cookies from "js-cookie"
+import { SyncLoader } from "react-spinners"
+
 import ProductCard from "../ProductCard"
 import "./index.css"
-import { SyncLoader } from "react-spinners"
 
 const apiStatusConstants = {
   initial: "INITIAL",
@@ -60,6 +61,7 @@ class PrimeDealsSection extends Component {
 
   renderPrimeDealsList = () => {
     const { primeDeals } = this.state
+
     return (
       <div>
         <h1 className="primedeals-list-heading">Exclusive Prime Deals</h1>
@@ -75,14 +77,14 @@ class PrimeDealsSection extends Component {
   renderPrimeDealsFailureView = () => (
     <img
       src="https://assets.ccbp.in/frontend/react-js/exclusive-deals-banner-img.png"
-      alt="Register Prime"
-      className="register-prime-image"
+      alt="register prime"
+      className="register-prime-img"
     />
   )
 
   renderLoadingView = () => (
-    <div className="products-loader-container">
-      <SyncLoader color="#0b69ff" size={40} />
+    <div className="primedeals-loader-container">
+      <SyncLoader color="#0b69ff" size={50} />
     </div>
   )
 

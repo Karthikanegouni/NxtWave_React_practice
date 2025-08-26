@@ -24,6 +24,7 @@ A React application that allows users to view detailed information about a selec
 **Base URL:** `https://apis.ccbp.in/products/:id`
 
 ### Example:
+
 ```bash
 https://apis.ccbp.in/products/16
 ```
@@ -38,11 +39,13 @@ cd NxtWave_React_practice/ProductItemDetails
 ## Installation & Running
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
 
 2. Start the development server:
+
    ```bash
    npm start
    ```
