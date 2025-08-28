@@ -1,0 +1,54 @@
+.cowin-dashboard {
+  padding: 2em 5em;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.header > img {
+  width: 50px;
+}
+.header > p {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #2cc6c6;
+}
+
+.card {
+  background-color: #1c1c2b;
+  padding: 2em;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 8px #060608;
+  margin-top: 2em;
+}
+.card > h1 {
+  color: #94a3b8;
+  font-size: 1.5rem;
+  margin-bottom: 2em;
+}
+
+.chart{
+  align-self: center;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.failure-view {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.failure-view > img {
+  width: 100%;
+  max-width: 756px;
+}
