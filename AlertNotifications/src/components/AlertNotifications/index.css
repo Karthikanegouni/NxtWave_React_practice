@@ -1,0 +1,41 @@
+.alert-notifications-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.alert-cnt {
+  display: flex;
+  gap: 2em;
+}
+
+.notification-icon {
+  align-self: flex-start;
+  margin-top: 1.7em;
+}
+
+.notification-description-cnt {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.notification-description {
+  color: #64748b;
+}
+
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
