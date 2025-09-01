@@ -1,0 +1,19 @@
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.chrono-container > h1 {
+  text-align: center;
+}
+
+.heading {
+  font-weight: 400;
+}
+
+.second-heading,
+.heading {
+  color: #171f46;
+}

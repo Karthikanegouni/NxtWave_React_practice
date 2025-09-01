@@ -6,16 +6,18 @@ const CourseTimelineCard = ({item}) => {
 
   return (
     <div className="course-card">
-      <h2 className="course-title">{courseTitle}</h2>
-      <div className="duration">
-        <AiFillClockCircle className="icon" />
-        <p>{duration}</p>
+      <div className="card-header">
+        <h2 className="course-title">{courseTitle}</h2>
+        <div className="duration">
+          <AiFillClockCircle className="icon" />
+          <p>{duration}</p>
+        </div>
       </div>
       <p className="description">{description}</p>
       <ul className="tags-list">
         {tagsList.map(tag => (
           <li key={tag.id} className="tag">
-            {tag.name}
+            <p>{tag.name}</p>
           </li>
         ))}
       </ul>

@@ -1,0 +1,37 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1em;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duration {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.description {
+  line-height: 1.5;
+}
+
+.visit-link {
+  color: #0967d2;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  align-self: flex-start;
+  padding-bottom: 1em;
+}

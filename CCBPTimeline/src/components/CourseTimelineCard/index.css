@@ -1,0 +1,30 @@
+.tags-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.tag {
+  background-color: #e2e8f1;
+  padding: 0.5em;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.tag > p {
+  margin: 0;
+}
+
+.duration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  font-weight: bold;
+}
+
+.course-card {
+  padding: 1em;
+}
