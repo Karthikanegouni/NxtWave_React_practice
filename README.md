@@ -45,6 +45,7 @@ cd NxtWave_React_practice
 - JavaScript (ES6+)
 - Vite
 - CSS
+- Lucide react, react-icons (ICONS)
 
 ## License
 
