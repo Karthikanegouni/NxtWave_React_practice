@@ -1,0 +1,13 @@
+.not-fount-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+}
+
+.not-fount-page > img {
+  width: 100%;
+  max-width: 500px;
+}

@@ -1,0 +1,25 @@
+.page-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sm-img {
+  display: block;
+}
+
+.lg-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-img {
+    display: block;
+    width: 100%;
+    max-width: 1080px;
+  }
+
+  .sm-img {
+    display: none;
+  }
+}
