@@ -1,0 +1,35 @@
+.thumbnail-img {
+  width: 90%;
+  margin: 0 20px;
+}
+
+.close-btn {
+  align-self: flex-end;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 90vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  border-radius: 15px;
+  gap: 1em;
+}
+
+.player {
+  margin-bottom: 2.5em;
+}
+
+@media screen and (min-width: 769px) {
+  .popup-content {
+    width: 60vw;
+    height: 75vh;
+  }
+}

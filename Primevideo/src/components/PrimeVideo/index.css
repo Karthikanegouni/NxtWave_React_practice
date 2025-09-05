@@ -1,0 +1,40 @@
+.prime-video-cnt {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.top-banner {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.movies-cnt {
+  padding: 2em;
+}
+
+@media screen and (min-width: 769px) {
+  .top-banner {
+    width: 100%;
+    height: 25vh;
+    background-image: linear-gradient(to right, #3c7eba 35%, #4da7e1 70%);
+    overflow: hidden;
+  }
+
+  .banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .movies-cnt {
+    padding: 2em 4em;
+  }
+}
