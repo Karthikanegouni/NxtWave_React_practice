@@ -2,9 +2,13 @@
 
 A React app that displays Action and Comedy movie carousels, with a popup video player for each movie.
 
-## Live Demo
+## Demo
 
 - ### [Live Link](https://primevidak.ccbp.tech/)
+- Video Demo
+
+- https://github.com/user-attachments/assets/2d5adf29-4852-418f-9946-b0743c224e01
+
 
 ## Features
 
