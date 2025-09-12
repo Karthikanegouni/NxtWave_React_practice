@@ -1,7 +1,14 @@
-import React from "react"
+import Header from '../Header'
+import Body from '../Body'
+import Footer from '../Footer'
+import './index.css'
 
-const Layout = () => {
-  return <div>Layout</div>
-}
+const Layout = () => (
+  <div className="layout-cnt">
+    <Header />
+    <Body />
+    <Footer />
+  </div>
+)
 
 export default Layout

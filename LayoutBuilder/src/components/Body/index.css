@@ -1,0 +1,41 @@
+.body-cnt {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  min-height: 50vh;
+}
+
+.left-navbar,
+.right-navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  background-color: #e2e8f0;
+  min-width: 30%;
+  padding: 1em;
+}
+
+.content-cnt {
+  background-color: #f1f5f9;
+  flex-grow: 1;
+  padding: 1em;
+}
+
+.body-section-title {
+  font-size: 1rem;
+}
+
+.ad-cnt {
+  border: 1px solid #475569;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+}
+
+.items-cnt {
+  padding: 0;
+  list-style-type: none;
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+}

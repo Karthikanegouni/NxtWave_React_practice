@@ -1,7 +1,9 @@
-import React from "react"
+import "./index.css"
 
-const Header = () => {
-  return <div>Header</div>
-}
+const Header = () => (
+  <div className="header-cnt">
+    <h1>Header</h1>
+  </div>
+)
 
 export default Header

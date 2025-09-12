@@ -1,0 +1,19 @@
+.configuration-cnt {
+  background-color: #475569;
+  color: #f1f5f9;
+  padding: 1em 4em;
+  user-select: none;
+}
+
+.control-item {
+  display: flex;
+  gap: 0.5em;
+}
+
+.configuration-list-cnt {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

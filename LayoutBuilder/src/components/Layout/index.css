@@ -1,0 +1,9 @@
+.layout-cnt {
+  padding: 2em 0em;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  color: #475569;
+}
