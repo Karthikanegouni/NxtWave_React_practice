@@ -1,0 +1,18 @@
+.navbar-cnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 5em;
+}
+
+.nav-items-cnt {
+  margin: 0;
+  list-style-type: none;
+  gap: 1em;
+  display: flex;
+}
+
+
+.nav-items{
+   
+}
