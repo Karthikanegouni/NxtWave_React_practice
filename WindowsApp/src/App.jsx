@@ -1,5 +1,4 @@
-import { act, Component } from "react"
-
+import { Component } from "react"
 import Header from "./components/Header"
 import LandingSection from "./components/LandingSection"
 import FeaturesSection from "./components/FeaturesSection"
