@@ -1,0 +1,39 @@
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  max-width: 1110px;
+  width: 90%;
+  margin: auto;
+}
+
+.website-logo {
+  width: 110px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 140px;
+  }
+}
+
+.language-dropdown {
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+  line-height: 1.42;
+  padding: 6px 12px 6px 4px;
+  background-color: #ffffff;
+  border: 1px solid #94a3b8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .language-dropdown {
+    padding: 8px 16px 8px 4px;
+  }
+}

@@ -1,0 +1,87 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  background-color: #0078fc;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1110px;
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #0078fc;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo-white {
+  width: 150px;
+  height: 150px;
+  order: -1;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-white {
+    width: 260px;
+    height: 260px;
+    order: 1;
+    margin-bottom: 0;
+    margin-left: 50px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 42px;
+    text-align: left;
+  }
+}
+
+.description-container {
+  width: 95%;
+  max-width: 400px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .description-container {
+    width: 60%;
+    max-width: 500px;
+    text-align: left;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.42;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+    line-height: 1.42;
+  }
+}

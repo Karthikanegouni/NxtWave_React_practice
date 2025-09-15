@@ -1,0 +1,19 @@
+.features-section-container {
+  max-width: 1110px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .features-section-container {
+    font-size: 30px;
+    justify-content: space-between;
+    flex-direction: row;
+    line-height: 1.42;
+    text-align: left;
+  }
+}

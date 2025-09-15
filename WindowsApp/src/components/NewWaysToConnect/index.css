@@ -1,0 +1,53 @@
+.new-ways-to-connect-container {
+  margin-top: 40px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .new-ways-to-connect-container {
+    width: 38%;
+    margin-top: 0px;
+    align-items: flex-start;
+  }
+}
+
+.new-ways-to-content-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.42;
+  color: #334155;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .new-ways-to-content-heading {
+    font-size: 30px;
+    line-height: 1.42;
+    text-align: left;
+  }
+}
+
+.new-ways-to-content-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.42;
+  margin-top: 10px;
+  width: 95%;
+  max-width: 400px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .new-ways-to-content-description {
+    width: 95%;
+    font-size: 18px;
+    line-height: 1.42;
+    margin-top: 15px;
+    text-align: left;
+  }
+}
