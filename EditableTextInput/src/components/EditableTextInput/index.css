@@ -1,0 +1,53 @@
+.main-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 5em 4em;
+  border-radius: 10px;
+  min-width: 450px;
+}
+
+.flex-cnt {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+input {
+  border: 1px solid #cbd2d9;
+  font-size: 1.5rem;
+  padding: 0.5em 1em;
+  outline: none;
+  border-radius: 10px;
+  width: 20ch;
+}
+
+p {
+  font-size: 1.5rem;
+  flex-grow: 1;
+  color: #323f4b;
+  margin: 0;
+}
+
+.custom-button {
+  background-color: #d946ef;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 1em 2em;
+  border-radius: 5px;
+}
