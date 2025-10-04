@@ -1,0 +1,40 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.song-details {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.song-details > img {
+  max-width: 200px;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.genre {
+  color: #3b82f6;
+}
+
+.delete-btn {
+  background-color: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.duration-delete-cnt {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}

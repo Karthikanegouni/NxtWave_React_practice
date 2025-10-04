@@ -9,8 +9,6 @@ A React app that lets users view, search, and delete songs from a music playlist
 - Each track has a delete button for removal from the playlist
 - "No Songs Found" view shown when search yields zero results or all tracks are deleted
 
-ll are deleted, the empty playlist view is shown
-
 ## Cloning This Project
 
     git clone https://github.com/Karthikanegouni/NxtWave_React_practice.git
