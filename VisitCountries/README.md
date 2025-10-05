@@ -49,7 +49,7 @@ A React app that demonstrates Lists and Keys by managing a list of countries wit
 - React
 - Vite
 - JavaScript
-- CSS
+- Styled Components
 
 ## License
 
