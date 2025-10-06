@@ -1,0 +1,14 @@
+.tag-item {
+  padding: 0.5em 1em;
+  border: 1px solid #f3aa4e;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.active-tag {
+  background-color: #f3aa4e;
+}
