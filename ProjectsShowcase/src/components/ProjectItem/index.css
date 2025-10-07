@@ -1,0 +1,26 @@
+.project-item {
+  background-color: #ffffff;
+  box-shadow: 4px 10px 12px #e6e9ec;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  max-width: 250px;
+  flex-grow: 1;
+}
+
+.project-item > img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.project-item > p {
+  padding: 0 1em;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .project-item {
+    flex-grow: 1;
+    max-width: 400px;
+  }
+}
