@@ -1,0 +1,24 @@
+.not-found-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 2em;
+}
+
+.not-found-cnt > img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.not-found-cnt > h1 {
+  color: #1e293b;
+  font-size: 2rem;
+}
+
+.not-found-cnt > p {
+  color: #475569;
+  font-size: 1.3rem;
+  margin-top: 0;
+}

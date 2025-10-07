@@ -1,0 +1,35 @@
+.failure-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 2em;
+}
+
+.failure-cnt > img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.failure-cnt > h1 {
+  color: #1e293b;
+  font-size: 2rem;
+}
+
+.failure-cnt > p {
+  color: #475569;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.failure-cnt > button {
+  padding: 1em 2em;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #4656a1;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

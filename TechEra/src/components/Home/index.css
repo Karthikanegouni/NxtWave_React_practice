@@ -1,0 +1,12 @@
+.TechEra-cnt {
+  padding: 0 4em;
+  min-height: 100vh;
+}
+
+.courses-list-cnt {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+}

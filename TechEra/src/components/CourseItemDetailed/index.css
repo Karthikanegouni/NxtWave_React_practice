@@ -1,0 +1,29 @@
+.detailed-course-cnt {
+  display: flex;
+  gap: 1em;
+  width: 70%;
+  margin: auto;
+  margin-top: 5em;
+  border-radius: 10px;
+  box-shadow: 4px 8px 10px #e8e8e8;
+}
+
+.detailed-course-cnt > img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.text-container {
+  padding: 1em;
+}
+
+.text-container > h1 {
+  color: #1e293b;
+  font-size: 2rem;
+}
+
+.text-container > p {
+  color: #475569;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}

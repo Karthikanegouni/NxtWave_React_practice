@@ -1,0 +1,19 @@
+.course-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  font-weight: 600;
+  min-width: 200px;
+  max-width: 350px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #1e293b;
+}
+
+.course-item > img {
+  width: 50px;
+}
+
+.course-item > p {
+  font-size: 1.5rem;
+}
