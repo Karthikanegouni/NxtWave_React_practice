@@ -6,6 +6,8 @@ A simple React app to display a **credit card** with dynamic inputs for card num
 
 ## Demo
 
+- Live Demo: [https://ccakarthik.ccbp.tech/](https://ccakarthik.ccbp.tech/)
+
 ![Credit Card Demo](https://assets.ccbp.in/frontend/content/react-js-hooks/credit-card-output-v0.gif)
 
 ---
