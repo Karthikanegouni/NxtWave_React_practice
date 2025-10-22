@@ -46,6 +46,11 @@ cd NxtWave_React_practice
 - Vite
 - CSS
 - Lucide react, react-icons (ICONS)
+- JWT Auth
+- js Cookies
+- uuid
+- Context API
+- React Router DOM
 
 ## License
 
